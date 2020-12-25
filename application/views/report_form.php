@@ -58,8 +58,8 @@
                             <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-clipboard-outline"></i><span> Produk </span></a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/admin/dashboard/show_report_form">Input Produk</a></li>
-                                    <li><a href="/admin/dashboard/show_report_data">Data Produk</a></li>
+                                    <li><a href="<?php echo base_url('')?>dashboard/show_report_form">Input Produk</a></li>
+                                    <li><a href="<?php echo base_url('')?>dashboard/show_report_data">Data Produk</a></li>
                                 </ul>
                             </li>
 
