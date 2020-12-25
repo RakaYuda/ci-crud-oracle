@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-        <title>Admin</title>
+        <title>Shop Admin</title>
         <meta content="Admin Dashboard" name="description" />
         <meta content="Themesbrand" name="author" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,29 +19,27 @@
 
     </head>
 
-
     <body class="fixed-left">
 
-        <!-- Loader -->
-        <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
+    <!-- Loader -->
+    <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
 
 
-        <!-- Begin page -->
-        <div class="accountbg"></div>
-        <div class="wrapper-page">
-
-            <div class="card">
+    <!-- Begin page -->
+    <div class="accountbg">
+        <div class="row align-items-center justify-content-center h-100">
+            <div class="card w-25">
                 <div class="card-body">
 
-                    <h3 class="text-center m-0">
+                    <!-- <h3 class="text-center m-0">
                         <a href="index.html" class="logo logo-admin"><img src="<?php echo base_url('')?>assets/images/logo.png" height="30" alt="logo"></a>
-                    </h3>
+                    </h3> -->
 
                     <div class="p-3">
                         <h4 class="font-18 m-b-5 text-center">Welcome Back !</h4>
                         <p class="text-muted text-center">Register</p>
 
-                        <form class="form-horizontal m-t-30" action="<?php echo base_url('/auth/proses_register'); ?>" method="post">
+                        <form class="form-horizontal m-t-30" action="<?php echo base_url('/auth/do_register'); ?>" method="post">
 
                             <div class="form-group">
                                 <label for="name">Name</label>
@@ -63,23 +61,22 @@
                                     <button class="btn btn-primary w-md waves-effect waves-light" type="submit">Register</button>
                                 </div>
                             </div>
-
-                            <!-- <div class="form-group m-t-10 mb-0 row">
-                                <div class="col-12 m-t-20">
-                                    <a href="pages-recoverpw.html" class="text-muted"><i class="mdi mdi-lock"></i> Forgot your password?</a>
-                                </div>
-                            </div> -->
                         </form>
                     </div>
 
                 </div>
+
+                <div class="card-footer">
+                    <div class="text-center">
+                        <p class="text-secondary">Have an account ? <a href="<?php echo base_url('auth/login') ?>" class="font-500 font-14 text-secondary font-secondary"> Signin </a> </p>
+                        <!-- <p class="text-white">© 2017 - 2019 Admiria. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p> -->
+                    </div>
+                </div>
             </div>
 
-            <div class="m-t-40 text-center">
-                <p class="text-white">Have an account ? <a href="pages-register.html" class="font-500 font-14 text-white font-secondary"> Signin </a> </p>
-                <!-- <p class="text-white">© 2017 - 2019 Admiria. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p> -->
-            </div>
+               
 
+            </div>
         </div>
 
 

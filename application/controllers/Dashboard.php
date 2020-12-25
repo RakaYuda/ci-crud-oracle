@@ -32,14 +32,12 @@ class Dashboard extends CI_Controller {
     
     public function show_report_data()
 	{
-		// $this->load->view('report_data');
 		redirect('/product');
     }
     
     public function show_report_form()
 	{
 		redirect('/product/form');
-		// $this->load->view('report_form');
 	}
 
 	public function check_login()
